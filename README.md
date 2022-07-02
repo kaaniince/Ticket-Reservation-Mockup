@@ -8,6 +8,6 @@
 
 <hr>
 
-Another movie is selected and the price changes.
+Another movie is selected and the price changes.Because the price of each movie is set differently
 
 ![3](https://user-images.githubusercontent.com/57836014/177017759-d0b02940-e0f9-4100-847f-b619b3c69174.png)
