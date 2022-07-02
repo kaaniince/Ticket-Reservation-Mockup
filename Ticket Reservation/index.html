@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ticket Reservation For Movies</title>
+</head>
+<body>
+    <div class="logo"><img src="img/cinemaximum_logo.png" width="200" height="90" alt="cinemaximum" title="cinemaximum"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="number"><small>E</small></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="number"><small  class="number_right">E</small></div>
+
+
+        </div>
+        <div class="row">
+            <div class="number"><small>D</small></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+
+            <div class="seat"></div>
+            <div class="number"><small  class="number_right">D</small></div>
+
+        </div>
+        <div class="row">
+            <div class="number"><small>C</small></div>
+
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="number"><small  class="number_right">C</small></div>
+
+        </div>
+        <div class="row">
+            <div class="number"><small>B</small></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="number"><small class="number_right">B</small></div>
+
+        </div>
+        <div class="row">
+
+            <div class="number"><small>A</small>    </div>
+
+            <div class="seat"></div>
+            <div class="seat "></div>
+            <div class="seat "></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+
+            <div class="seat"></div>
+            <div class="seat "></div>
+            <div class="seat "></div>
+            <div class="seat"></div>
+            <div class="number"><small  class="number_right">A</small></div>
+
+        </div>
+        <div class="screen">
+            <p>S C R E E N </p>
+        </div>
+
+    </div>
+
+    <div class="movie-list">
+        <span class="custom-dropdown big">
+            <select id="movie">
+                <option disabled>Film Seçiniz</option>
+                <option value="30">Spider-Man: Far From Home</option>
+                <option value="35">No Way This Game</option>
+                <option value="40">Welcome to Island</option>
+            </select>
+
+        </span>
+    </div>
+
+    <ul class="info">
+        <li>
+            <div class="seat selected"></div>
+            <small>Your Choice</small>
+        </li>
+        <li>
+            <div class="seat"></div>
+            <small>Empty Seats</small>
+        </li>
+        <li>
+            <div class="seat reserved"></div>
+            <small>Reserved Seats</small>
+        </li>
+        
+    </ul>
+    <div class="result"><p class="text">
+         Calculated fee is <span id="amount">0</span> TL for <span id="count">0</span> seats.
+    </p></div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
